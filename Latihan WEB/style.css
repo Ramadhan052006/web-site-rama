@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #eaeaea;
+}
+
+a {
+    text-decoration: none;
+    color: orangered;
+}
+
+.container {
+    width: 800px ;
+    margin: auto;
+    background-color: #fafafa;
+
+}
+
+.header {
+    padding: 25px;
+}
+
+.header .judul {
+    font-weight: bold;    
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px ;
+}
+
+.header a {
+    padding: 4px;
+}
+
+.header a:hover {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.hero {
+    height: 500px;
+    background-image: url(assets/image.webp);
+    background-size: cover;
+    background-position: 0 0;
+    border-top: 5px solid ;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content .gat {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 20px;
+}
+
+.content .get {
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+}
+
+.page {
+    padding-left: 15px;
+}
+
+.page span {
+    padding-left: 17px;
+    margin-left: 10px;
+}
+
+.space {
+    padding-left: 40px;
+}
+
+.space li  p {
+    padding-top: 5px;
+}
+
+.space li {
+    padding-top: 15px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.footer {
+    height: 100px;
+    background-color: #b4d689;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foter {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 10px;
+}
